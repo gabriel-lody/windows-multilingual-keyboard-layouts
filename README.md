@@ -27,6 +27,7 @@ This layout extends the standard German QWERTZ keyboard with additional dead key
 
 ### Direct Characters
 - **Middle dot (·)** - AltGr + Period (.) for Catalan "punt volat"
+- **Inverted question mark (¿)** - AltGr + ? for Spanish
 
 ## Character Map
 
@@ -59,6 +60,7 @@ This layout extends the standard German QWERTZ keyboard with additional dead key
 | Combination | Result | Unicode | Usage |
 |-------------|--------|---------|--------|
 | AltGr + . | · | U+00B7 | Catalan middle dot |
+| AltGr + ? | ¿ | U+00BF | Spanish inverted question mark |
 
 ## Installation
 
@@ -107,16 +109,17 @@ The .klc source file allows you to modify the layout before installation. You ca
 - **coração** - c, o, r, a, ´, then c, AltGr+Plus, then a, o
 
 ### Spanish
-- **mañana** - m, a, AltGr+Plus, then n, a, n, a
+- **¿Mañana?** - AltGr+?, m, a, AltGr+Plus, then n, a, n, a, ?
 
 ## Design Rationale
 
 ### Why these key combinations?
 
 - **AltGr + Plus for tilde**: The Plus (+) and Tilde (~) share the same physical key, making this intuitive
-- **AltGr + Quote for diaeresis**: German keyboards have dedicated ä, ö, ü keys, so the quote (") key is repurposed for the similar diaeresis function
+- **AltGr + Quote for diaeresis**: German keyboards have dedicated ä, ö, ü keys, so AltGr+2 is repurposed for the similar diaeresis function
 - **Acute + C for cedilla**: Leverages the existing acute dead key, since cedilla and acute are both diacritical marks
 - **AltGr + Period for middle dot**: Simple and direct access for the Catalan "punt volat"
+- **AltGr + Question mark for inverted question**: Direct access to Spanish ¿ without need for dead keys
 
 ### Advantages over standard layouts
 - **No layout switching required**: Type German and Romance languages seamlessly
